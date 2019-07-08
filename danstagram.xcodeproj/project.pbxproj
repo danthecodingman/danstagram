@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C50E3322D3FB9300D97C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3222D3FB9300D97C3E /* AppDelegate.m */; };
+		A4C50E3622D3FB9300D97C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3522D3FB9300D97C3E /* ViewController.m */; };
+		A4C50E3922D3FB9300D97C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C50E3722D3FB9300D97C3E /* Main.storyboard */; };
+		A4C50E3B22D3FB9400D97C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C50E3A22D3FB9400D97C3E /* Assets.xcassets */; };
+		A4C50E3E22D3FB9400D97C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C50E3C22D3FB9400D97C3E /* LaunchScreen.storyboard */; };
+		A4C50E4122D3FB9400D97C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E4022D3FB9400D97C3E /* main.m */; };
+		A4C50E4B22D3FB9500D97C3E /* danstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E4A22D3FB9500D97C3E /* danstagramTests.m */; };
+		A4C50E5622D3FB9500D97C3E /* danstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E5522D3FB9500D97C3E /* danstagramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4C50E4722D3FB9500D97C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C50E2622D3FB9300D97C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C50E2D22D3FB9300D97C3E;
+			remoteInfo = danstagram;
+		};
+		A4C50E5222D3FB9500D97C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C50E2622D3FB9300D97C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C50E2D22D3FB9300D97C3E;
+			remoteInfo = danstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4C50E2E22D3FB9300D97C3E /* danstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = danstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C50E3122D3FB9300D97C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4C50E3222D3FB9300D97C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4C50E3422D3FB9300D97C3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4C50E3522D3FB9300D97C3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4C50E3822D3FB9300D97C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C50E3A22D3FB9400D97C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4C50E3D22D3FB9400D97C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4C50E3F22D3FB9400D97C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C50E4022D3FB9400D97C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4C50E4622D3FB9500D97C3E /* danstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = danstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C50E4A22D3FB9500D97C3E /* danstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = danstagramTests.m; sourceTree = "<group>"; };
+		A4C50E4C22D3FB9500D97C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C50E5122D3FB9500D97C3E /* danstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = danstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C50E5522D3FB9500D97C3E /* danstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = danstagramUITests.m; sourceTree = "<group>"; };
+		A4C50E5722D3FB9500D97C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4C50E2B22D3FB9300D97C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4322D3FB9500D97C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4E22D3FB9500D97C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4C50E2522D3FB9300D97C3E = {
+			isa = PBXGroup;
+			children = (
+				A4C50E3022D3FB9300D97C3E /* danstagram */,
+				A4C50E4922D3FB9500D97C3E /* danstagramTests */,
+				A4C50E5422D3FB9500D97C3E /* danstagramUITests */,
+				A4C50E2F22D3FB9300D97C3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4C50E2F22D3FB9300D97C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4C50E2E22D3FB9300D97C3E /* danstagram.app */,
+				A4C50E4622D3FB9500D97C3E /* danstagramTests.xctest */,
+				A4C50E5122D3FB9500D97C3E /* danstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C50E3022D3FB9300D97C3E /* danstagram */ = {
+			isa = PBXGroup;
+			children = (
+				A4C50E3122D3FB9300D97C3E /* AppDelegate.h */,
+				A4C50E3222D3FB9300D97C3E /* AppDelegate.m */,
+				A4C50E3422D3FB9300D97C3E /* ViewController.h */,
+				A4C50E3522D3FB9300D97C3E /* ViewController.m */,
+				A4C50E3722D3FB9300D97C3E /* Main.storyboard */,
+				A4C50E3A22D3FB9400D97C3E /* Assets.xcassets */,
+				A4C50E3C22D3FB9400D97C3E /* LaunchScreen.storyboard */,
+				A4C50E3F22D3FB9400D97C3E /* Info.plist */,
+				A4C50E4022D3FB9400D97C3E /* main.m */,
+			);
+			path = danstagram;
+			sourceTree = "<group>";
+		};
+		A4C50E4922D3FB9500D97C3E /* danstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C50E4A22D3FB9500D97C3E /* danstagramTests.m */,
+				A4C50E4C22D3FB9500D97C3E /* Info.plist */,
+			);
+			path = danstagramTests;
+			sourceTree = "<group>";
+		};
+		A4C50E5422D3FB9500D97C3E /* danstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C50E5522D3FB9500D97C3E /* danstagramUITests.m */,
+				A4C50E5722D3FB9500D97C3E /* Info.plist */,
+			);
+			path = danstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4C50E2D22D3FB9300D97C3E /* danstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C50E5A22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagram" */;
+			buildPhases = (
+				A4C50E2A22D3FB9300D97C3E /* Sources */,
+				A4C50E2B22D3FB9300D97C3E /* Frameworks */,
+				A4C50E2C22D3FB9300D97C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = danstagram;
+			productName = danstagram;
+			productReference = A4C50E2E22D3FB9300D97C3E /* danstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4C50E4522D3FB9500D97C3E /* danstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C50E5D22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramTests" */;
+			buildPhases = (
+				A4C50E4222D3FB9500D97C3E /* Sources */,
+				A4C50E4322D3FB9500D97C3E /* Frameworks */,
+				A4C50E4422D3FB9500D97C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C50E4822D3FB9500D97C3E /* PBXTargetDependency */,
+			);
+			name = danstagramTests;
+			productName = danstagramTests;
+			productReference = A4C50E4622D3FB9500D97C3E /* danstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4C50E5022D3FB9500D97C3E /* danstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C50E6022D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramUITests" */;
+			buildPhases = (
+				A4C50E4D22D3FB9500D97C3E /* Sources */,
+				A4C50E4E22D3FB9500D97C3E /* Frameworks */,
+				A4C50E4F22D3FB9500D97C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C50E5322D3FB9500D97C3E /* PBXTargetDependency */,
+			);
+			name = danstagramUITests;
+			productName = danstagramUITests;
+			productReference = A4C50E5122D3FB9500D97C3E /* danstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4C50E2622D3FB9300D97C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = danielavila;
+				TargetAttributes = {
+					A4C50E2D22D3FB9300D97C3E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A4C50E4522D3FB9500D97C3E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A4C50E2D22D3FB9300D97C3E;
+					};
+					A4C50E5022D3FB9500D97C3E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A4C50E2D22D3FB9300D97C3E;
+					};
+				};
+			};
+			buildConfigurationList = A4C50E2922D3FB9300D97C3E /* Build configuration list for PBXProject "danstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4C50E2522D3FB9300D97C3E;
+			productRefGroup = A4C50E2F22D3FB9300D97C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4C50E2D22D3FB9300D97C3E /* danstagram */,
+				A4C50E4522D3FB9500D97C3E /* danstagramTests */,
+				A4C50E5022D3FB9500D97C3E /* danstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4C50E2C22D3FB9300D97C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C50E3E22D3FB9400D97C3E /* LaunchScreen.storyboard in Resources */,
+				A4C50E3B22D3FB9400D97C3E /* Assets.xcassets in Resources */,
+				A4C50E3922D3FB9300D97C3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4422D3FB9500D97C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4F22D3FB9500D97C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4C50E2A22D3FB9300D97C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C50E3622D3FB9300D97C3E /* ViewController.m in Sources */,
+				A4C50E4122D3FB9400D97C3E /* main.m in Sources */,
+				A4C50E3322D3FB9300D97C3E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4222D3FB9500D97C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C50E4B22D3FB9500D97C3E /* danstagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C50E4D22D3FB9500D97C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C50E5622D3FB9500D97C3E /* danstagramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4C50E4822D3FB9500D97C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C50E2D22D3FB9300D97C3E /* danstagram */;
+			targetProxy = A4C50E4722D3FB9500D97C3E /* PBXContainerItemProxy */;
+		};
+		A4C50E5322D3FB9500D97C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C50E2D22D3FB9300D97C3E /* danstagram */;
+			targetProxy = A4C50E5222D3FB9500D97C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4C50E3722D3FB9300D97C3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C50E3822D3FB9300D97C3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4C50E3C22D3FB9400D97C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C50E3D22D3FB9400D97C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4C50E5822D3FB9500D97C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4C50E5922D3FB9500D97C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4C50E5B22D3FB9500D97C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4C50E5C22D3FB9500D97C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4C50E5E22D3FB9500D97C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/danstagram.app/danstagram";
+			};
+			name = Debug;
+		};
+		A4C50E5F22D3FB9500D97C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/danstagram.app/danstagram";
+			};
+			name = Release;
+		};
+		A4C50E6122D3FB9500D97C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = danstagram;
+			};
+			name = Debug;
+		};
+		A4C50E6222D3FB9500D97C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62N42H7N6L;
+				INFOPLIST_FILE = danstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danavila1.danstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = danstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4C50E2922D3FB9300D97C3E /* Build configuration list for PBXProject "danstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C50E5822D3FB9500D97C3E /* Debug */,
+				A4C50E5922D3FB9500D97C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C50E5A22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C50E5B22D3FB9500D97C3E /* Debug */,
+				A4C50E5C22D3FB9500D97C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C50E5D22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C50E5E22D3FB9500D97C3E /* Debug */,
+				A4C50E5F22D3FB9500D97C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C50E6022D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C50E6122D3FB9500D97C3E /* Debug */,
+				A4C50E6222D3FB9500D97C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4C50E2622D3FB9300D97C3E /* Project object */;
+}
