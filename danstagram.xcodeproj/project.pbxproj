@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F279CD45751F432222B22B5 /* Pods_danstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458EA02E5DB8A25397586473 /* Pods_danstagramUITests.framework */; };
+		9EDFD9C9F109B5F7EE5F6B4A /* Pods_danstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867CC7138F2415040AB65AC8 /* Pods_danstagram.framework */; };
 		A4C50E3322D3FB9300D97C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3222D3FB9300D97C3E /* AppDelegate.m */; };
 		A4C50E3622D3FB9300D97C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3522D3FB9300D97C3E /* ViewController.m */; };
 		A4C50E3922D3FB9300D97C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C50E3722D3FB9300D97C3E /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		A4C50E4122D3FB9400D97C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E4022D3FB9400D97C3E /* main.m */; };
 		A4C50E4B22D3FB9500D97C3E /* danstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E4A22D3FB9500D97C3E /* danstagramTests.m */; };
 		A4C50E5622D3FB9500D97C3E /* danstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E5522D3FB9500D97C3E /* danstagramUITests.m */; };
+		D0CCA6989BFC05989D056AD6 /* Pods_danstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09444939FA859B6AFFACB6B1 /* Pods_danstagramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0012793764D06D5F7B3857AF /* Pods-danstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagram.debug.xcconfig"; path = "Target Support Files/Pods-danstagram/Pods-danstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		09444939FA859B6AFFACB6B1 /* Pods_danstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_danstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458EA02E5DB8A25397586473 /* Pods_danstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_danstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FB22ABB96F4F10C8F3C0D /* Pods-danstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-danstagramUITests/Pods-danstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		867CC7138F2415040AB65AC8 /* Pods_danstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_danstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9083FCE3B301231BB1E5C8C2 /* Pods-danstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-danstagramUITests/Pods-danstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92D5B54EDBA303164C173F01 /* Pods-danstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagram.release.xcconfig"; path = "Target Support Files/Pods-danstagram/Pods-danstagram.release.xcconfig"; sourceTree = "<group>"; };
 		A4C50E2E22D3FB9300D97C3E /* danstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = danstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C50E3122D3FB9300D97C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4C50E3222D3FB9300D97C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		A4C50E5122D3FB9500D97C3E /* danstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = danstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C50E5522D3FB9500D97C3E /* danstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = danstagramUITests.m; sourceTree = "<group>"; };
 		A4C50E5722D3FB9500D97C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64D21367F8C77F8C952728F /* Pods-danstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-danstagramTests/Pods-danstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F27B094F54FA150A27703E7E /* Pods-danstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-danstagramTests.release.xcconfig"; path = "Target Support Files/Pods-danstagramTests/Pods-danstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDFD9C9F109B5F7EE5F6B4A /* Pods_danstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CCA6989BFC05989D056AD6 /* Pods_danstagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F279CD45751F432222B22B5 /* Pods_danstagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFCBF1D3B31C50C401A668A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0012793764D06D5F7B3857AF /* Pods-danstagram.debug.xcconfig */,
+				92D5B54EDBA303164C173F01 /* Pods-danstagram.release.xcconfig */,
+				E64D21367F8C77F8C952728F /* Pods-danstagramTests.debug.xcconfig */,
+				F27B094F54FA150A27703E7E /* Pods-danstagramTests.release.xcconfig */,
+				850FB22ABB96F4F10C8F3C0D /* Pods-danstagramUITests.debug.xcconfig */,
+				9083FCE3B301231BB1E5C8C2 /* Pods-danstagramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79269BEEF47157CF35DA1011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7138F2415040AB65AC8 /* Pods_danstagram.framework */,
+				09444939FA859B6AFFACB6B1 /* Pods_danstagramTests.framework */,
+				458EA02E5DB8A25397586473 /* Pods_danstagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4C50E2522D3FB9300D97C3E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				A4C50E4922D3FB9500D97C3E /* danstagramTests */,
 				A4C50E5422D3FB9500D97C3E /* danstagramUITests */,
 				A4C50E2F22D3FB9300D97C3E /* Products */,
+				1CFCBF1D3B31C50C401A668A /* Pods */,
+				79269BEEF47157CF35DA1011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C50E5A22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagram" */;
 			buildPhases = (
+				56F675BCB6F02A1732AA1CF0 /* [CP] Check Pods Manifest.lock */,
 				A4C50E2A22D3FB9300D97C3E /* Sources */,
 				A4C50E2B22D3FB9300D97C3E /* Frameworks */,
 				A4C50E2C22D3FB9300D97C3E /* Resources */,
+				5710E5CDA73BBF2E7DA2DD57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C50E5D22D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramTests" */;
 			buildPhases = (
+				DEEB58755F1570225A5E6B5B /* [CP] Check Pods Manifest.lock */,
 				A4C50E4222D3FB9500D97C3E /* Sources */,
 				A4C50E4322D3FB9500D97C3E /* Frameworks */,
 				A4C50E4422D3FB9500D97C3E /* Resources */,
@@ -174,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C50E6022D3FB9500D97C3E /* Build configuration list for PBXNativeTarget "danstagramUITests" */;
 			buildPhases = (
+				D7F801BA1E2B8461FFD84D09 /* [CP] Check Pods Manifest.lock */,
 				A4C50E4D22D3FB9500D97C3E /* Sources */,
 				A4C50E4E22D3FB9500D97C3E /* Frameworks */,
 				A4C50E4F22D3FB9500D97C3E /* Resources */,
@@ -256,6 +301,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56F675BCB6F02A1732AA1CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-danstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5710E5CDA73BBF2E7DA2DD57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-danstagram/Pods-danstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-danstagram/Pods-danstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-danstagram/Pods-danstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F801BA1E2B8461FFD84D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-danstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEB58755F1570225A5E6B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-danstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4C50E2A22D3FB9300D97C3E /* Sources */ = {
@@ -433,6 +564,7 @@
 		};
 		A4C50E5B22D3FB9500D97C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0012793764D06D5F7B3857AF /* Pods-danstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +582,7 @@
 		};
 		A4C50E5C22D3FB9500D97C3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D5B54EDBA303164C173F01 /* Pods-danstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +600,7 @@
 		};
 		A4C50E5E22D3FB9500D97C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64D21367F8C77F8C952728F /* Pods-danstagramTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +620,7 @@
 		};
 		A4C50E5F22D3FB9500D97C3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27B094F54FA150A27703E7E /* Pods-danstagramTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +640,7 @@
 		};
 		A4C50E6122D3FB9500D97C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850FB22ABB96F4F10C8F3C0D /* Pods-danstagramUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62N42H7N6L;
@@ -523,6 +659,7 @@
 		};
 		A4C50E6222D3FB9500D97C3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9083FCE3B301231BB1E5C8C2 /* Pods-danstagramUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62N42H7N6L;
