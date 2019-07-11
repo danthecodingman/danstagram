@@ -7,6 +7,8 @@ target 'danstagram' do
 
   # Pods for danstagram
     pod 'Parse'
+	pod 'AFNetworking'
+	pod 'DateTools'
 
   target 'danstagramTests' do
     inherit! :search_paths

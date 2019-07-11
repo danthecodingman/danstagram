@@ -11,6 +11,10 @@
 		9EDFD9C9F109B5F7EE5F6B4A /* Pods_danstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867CC7138F2415040AB65AC8 /* Pods_danstagram.framework */; };
 		A42BE03622D5193E009A7D2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE03522D5193E009A7D2A /* LoginViewController.m */; };
 		A42BE03A22D52A50009A7D2A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE03922D52A50009A7D2A /* MainViewController.m */; };
+		A42BE03D22D54BA2009A7D2A /* GramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE03C22D54BA2009A7D2A /* GramCell.m */; };
+		A42BE04022D55063009A7D2A /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE03F22D55063009A7D2A /* ComposeViewController.m */; };
+		A42BE04322D67B55009A7D2A /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE04222D67B55009A7D2A /* Post.m */; };
+		A42BE04622D6B37E009A7D2A /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BE04522D6B37E009A7D2A /* DetailsViewController.m */; };
 		A4C50E3322D3FB9300D97C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3222D3FB9300D97C3E /* AppDelegate.m */; };
 		A4C50E3622D3FB9300D97C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C50E3522D3FB9300D97C3E /* ViewController.m */; };
 		A4C50E3922D3FB9300D97C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C50E3722D3FB9300D97C3E /* Main.storyboard */; };
@@ -51,6 +55,14 @@
 		A42BE03522D5193E009A7D2A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		A42BE03822D52A50009A7D2A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A42BE03922D52A50009A7D2A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A42BE03B22D54BA2009A7D2A /* GramCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GramCell.h; sourceTree = "<group>"; };
+		A42BE03C22D54BA2009A7D2A /* GramCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GramCell.m; sourceTree = "<group>"; };
+		A42BE03E22D55063009A7D2A /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		A42BE03F22D55063009A7D2A /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		A42BE04122D67B55009A7D2A /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		A42BE04222D67B55009A7D2A /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		A42BE04422D6B37E009A7D2A /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		A42BE04522D6B37E009A7D2A /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		A4C50E2E22D3FB9300D97C3E /* danstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = danstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C50E3122D3FB9300D97C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4C50E3222D3FB9300D97C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,8 +149,14 @@
 				A4C50E3522D3FB9300D97C3E /* ViewController.m */,
 				A42BE03422D5193E009A7D2A /* LoginViewController.h */,
 				A42BE03522D5193E009A7D2A /* LoginViewController.m */,
+				A42BE03E22D55063009A7D2A /* ComposeViewController.h */,
+				A42BE03F22D55063009A7D2A /* ComposeViewController.m */,
 				A42BE03822D52A50009A7D2A /* MainViewController.h */,
 				A42BE03922D52A50009A7D2A /* MainViewController.m */,
+				A42BE04422D6B37E009A7D2A /* DetailsViewController.h */,
+				A42BE04522D6B37E009A7D2A /* DetailsViewController.m */,
+				A42BE04122D67B55009A7D2A /* Post.h */,
+				A42BE04222D67B55009A7D2A /* Post.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +190,8 @@
 				A4C50E3122D3FB9300D97C3E /* AppDelegate.h */,
 				A4C50E3222D3FB9300D97C3E /* AppDelegate.m */,
 				A4C50E3722D3FB9300D97C3E /* Main.storyboard */,
+				A42BE03B22D54BA2009A7D2A /* GramCell.h */,
+				A42BE03C22D54BA2009A7D2A /* GramCell.m */,
 				A4C50E3A22D3FB9400D97C3E /* Assets.xcassets */,
 				A4C50E3C22D3FB9400D97C3E /* LaunchScreen.storyboard */,
 				A4C50E3F22D3FB9400D97C3E /* Info.plist */,
@@ -420,9 +440,13 @@
 			files = (
 				A42BE03622D5193E009A7D2A /* LoginViewController.m in Sources */,
 				A4C50E3622D3FB9300D97C3E /* ViewController.m in Sources */,
+				A42BE03D22D54BA2009A7D2A /* GramCell.m in Sources */,
 				A4C50E4122D3FB9400D97C3E /* main.m in Sources */,
+				A42BE04022D55063009A7D2A /* ComposeViewController.m in Sources */,
 				A42BE03A22D52A50009A7D2A /* MainViewController.m in Sources */,
+				A42BE04622D6B37E009A7D2A /* DetailsViewController.m in Sources */,
 				A4C50E3322D3FB9300D97C3E /* AppDelegate.m in Sources */,
+				A42BE04322D67B55009A7D2A /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
