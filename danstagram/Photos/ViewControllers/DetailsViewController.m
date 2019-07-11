@@ -9,6 +9,8 @@
 #import "DetailsViewController.h"
 #import "UIImageView+AFNetworking.h"
 #import "Parse/Parse.h"
+#import "DateTools.h"
+
 
 @interface DetailsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageDetail;
@@ -29,6 +31,10 @@
     self.captionDetail.text = _post[@"caption"];
     PFUser *user = _post[@"author"];
     self.usernameDetail.text = user.username;
+    
+//    NSTimer *_Nullable timePosted = _post.createdAt;
+    
+//    self.timeDetail.text = timePosted.timeAgoSinceNow;
     
     PFFileObject *pfobj = _post[@"image"];
     NSURL *posterURL = [NSURL URLWithString: pfobj.url];

@@ -99,7 +99,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
  
     
-    if([segue.identifier isEqualToString:@"showCreatePost"]){
+    if([segue.identifier isEqualToString:@"showDetails"]){
         GramCell *tappedCell = sender;
         NSIndexPath *indexPath = [self.tableView indexPathForCell:tappedCell];
         Post *post = self.posts[indexPath.row];
@@ -107,7 +107,7 @@
         DetailsViewController *detailViewController = [segue destinationViewController];
         detailViewController.post = post;
     }
-        
+    
     
 }
 
