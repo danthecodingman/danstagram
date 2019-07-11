@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageDetail;
 @property (weak, nonatomic) IBOutlet UILabel *usernameDetail;
 @property (weak, nonatomic) IBOutlet UILabel *captionDetail;
+@property (weak, nonatomic) IBOutlet UILabel *timeDetail;
 
 
 

@@ -12,6 +12,7 @@
 #import "GramCell.h"
 #import "UIImageView+AFNetworking.h"
 #import "DetailsViewController.h"
+#import "GramCell.h"
 
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -96,12 +97,18 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    UITableViewCell *tappedCell = sender;
-    NSIndexPath *indexPath = [self.tableView indexPathForCell:tappedCell];
-    NSDictionary *post = self.posts[indexPath.row];
+ 
     
-    DetailsViewController *detailViewController = [segue destinationViewController];
-    detailViewController.post = post;
+    if([segue.identifier isEqualToString:@"showCreatePost"]){
+        GramCell *tappedCell = sender;
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:tappedCell];
+        Post *post = self.posts[indexPath.row];
+        
+        DetailsViewController *detailViewController = [segue destinationViewController];
+        detailViewController.post = post;
+    }
+        
+    
 }
 
 @end
