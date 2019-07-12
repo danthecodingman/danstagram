@@ -32,9 +32,18 @@
     PFUser *user = _post[@"author"];
     self.usernameDetail.text = user.username;
     
-//    NSTimer *_Nullable timePosted = _post.createdAt;
+    // Format and set createdAtString
+    // Format createdAt date string
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    // Configure the input format to parse the date string
+    formatter.dateFormat = @"E MMM d HH:mm:ss Z y";
+    // Configure output format
+    formatter.dateStyle = NSDateFormatterShortStyle;
+    formatter.timeStyle = NSDateFormatterNoStyle;
+    // Convert Date to String
+    self.timeDetail.text = [formatter stringFromDate:self.post.createdAt];
     
-//    self.timeDetail.text = timePosted.timeAgoSinceNow;
+    
     
     PFFileObject *pfobj = _post[@"image"];
     NSURL *posterURL = [NSURL URLWithString: pfobj.url];

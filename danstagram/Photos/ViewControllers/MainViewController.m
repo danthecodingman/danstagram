@@ -76,13 +76,20 @@
     
     GramCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GramCell"];// step 2
     
-    NSDictionary *post = self.posts[indexPath.row];
+    Post *post = self.posts[indexPath.row];
     
     
     cell.homeCaption.text = post[@"caption"];
     PFUser *user = post[@"author"];
     cell.homeUser.text = user.username;
     
+    NSNumber * numLikes = post[@"likeCount"];
+    cell.homeLikeCount.text = [numLikes stringValue];
+    
+    NSNumber * numComments = post[@"commentCount"];
+    cell.homeCommentCount.text = [numComments stringValue];
+    
+
     PFFileObject *pfobj = post[@"image"];
     NSURL *posterURL = [NSURL URLWithString: pfobj.url];
     cell.homeImage.image = nil;

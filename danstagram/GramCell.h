@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIImageView *homeImage;
 @property (weak, nonatomic) IBOutlet UITextView *homeCaption;
 @property (weak, nonatomic) IBOutlet UILabel *homeUser;
+@property (weak, nonatomic) IBOutlet UILabel *homeLikeCount;
+@property (weak, nonatomic) IBOutlet UILabel *homeCommentCount;
 
 @end
 
